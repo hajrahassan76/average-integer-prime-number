@@ -1,0 +1,16 @@
+list=[70,80,90,40,50,60]
+sum=0
+for x in list:
+    sum=x+sum
+    avg=sum/len(list)
+    print('average=',avg)
+    x=0
+    my_list = (-15, -26, -15, 1, 23, -64, 23, 76)
+    new_list = []
+    while list:
+        max = list[0]
+        for x in list:
+            max = x
+        new_list.append(max)
+        list.remove(max)
+        print(new_list)
