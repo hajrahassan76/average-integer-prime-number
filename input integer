@@ -1,0 +1,13 @@
+aList = []
+
+rList = []
+
+i = j = 0
+for i in range(0, 10):
+num = input("Input integer: \n")
+aList.append(num)
+j = i
+while j >= 0:
+rList.append(aList[j])
+j -= 1
+print(rList)
