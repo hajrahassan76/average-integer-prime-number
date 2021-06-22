@@ -1,0 +1,11 @@
+return_days=int(input('returning days='))
+if return_days<=7:
+    print('fine=10pkr')
+elif return_days in range(8,15):
+    print('fine=20pkr')
+elif return_days in range(15,31):
+    print('fine=50pkr')
+elif return_days>31:
+    print('membership is cancelled')
+else:
+    print('you enter wrong digit')
