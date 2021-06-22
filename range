@@ -1,0 +1,12 @@
+aList = []
+
+bList = []
+for x in range(1, 11):
+num = 12*x
+aList.append(num)
+num2 = 2
+for y in aList:
+bList.append(y + num2)
+num2+=2
+print(aList)
+print (bList)
