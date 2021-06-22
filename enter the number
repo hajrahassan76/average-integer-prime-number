@@ -1,0 +1,3 @@
+n=int(input('enter the number'))
+for i in range(0,n,999):
+    print(i)
