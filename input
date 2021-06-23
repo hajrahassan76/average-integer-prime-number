@@ -1,0 +1,10 @@
+count = 0
+for x in range(20):
+    list = input('Values are: ')
+n = input('Enter the key to be searched')
+if n in list:
+    count = count + 1
+    print('Key is present')
+else:
+    print('Key is not present')
+print('Key is present ', count, ' times')
