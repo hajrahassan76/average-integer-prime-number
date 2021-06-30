@@ -1,0 +1,6 @@
+aTuple=(10,20,30,40)
+numbers=(10,20,30,40)
+print(10)
+print(20)
+print(30)
+print(40)
