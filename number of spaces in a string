@@ -1,0 +1,4 @@
+nums=(i for i in range(1,1001))
+mystr="practice problems to drill list comprehension in your list"
+a= ([x for x in mystr if x==" "])
+print(len(a))
