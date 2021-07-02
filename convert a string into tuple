@@ -1,0 +1,8 @@
+list = []
+n = int(input("enter no"))
+for i in range(n):
+    choice1 = input("enter values")
+    list.append(choice1)
+print(list)
+b = tuple(list,)
+print(b)
