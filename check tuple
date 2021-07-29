@@ -1,4 +1,0 @@
-tuplex=("mon","tues","wed","thurs","fri","sat","sun")
-print("mon"in tuplex)
-print("wed"in tuplex)
-print("fri"in tuplex)
